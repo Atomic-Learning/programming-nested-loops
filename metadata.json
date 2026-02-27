@@ -1,0 +1,21 @@
+{
+    "title": "Programming: Nested Loops",
+    "slug": "programming-nested-loops",
+    "description": "Language-agnostic introduction to loops inside loops, including iteration flow across levels and common use cases.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "programming",
+        "pseudocode"
+    ],
+    "duration": 4,
+    "prerequisites": [
+        "programming-for-loops-introduction",
+        "programming-nested-constructs"
+    ],
+    "related": [
+        "python-nested-for-loops",
+        "programming-loop-control-nested-loops"
+    ]
+}

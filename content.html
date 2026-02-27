@@ -1,0 +1,38 @@
+<h2>What a Nested Loop Is</h2>
+
+<p>A nested loop is a loop inside another loop. For each iteration of the outer loop, the inner loop runs through all of its iterations.</p>
+
+<h2>General Pattern</h2>
+<pre><code>FOR each outer_value IN outer_collection:
+    FOR each inner_value IN inner_collection:
+        process(outer_value, inner_value)</code></pre>
+
+<h2>How Execution Scales</h2>
+
+<p>Nested loops can increase the total number of iterations quickly. If the outer loop runs $m$ times and the inner loop runs $n$ times, the inner body runs $m \times n$ times.</p>
+
+<h2>Example</h2>
+
+<p>To print all pairs of items from two lists:</p>
+
+<pre><code>list1 = [1, 2, 3]
+list2 = ['a', 'b']
+
+FOR each item1 IN list1:
+    FOR each item2 IN list2:
+        PRINT item1, item2</code></pre>
+
+This code will output:
+<pre><code>1 a
+1 b
+2 a
+2 b
+3 a
+3 b</code></pre>
+
+<h2>Common Uses</h2>
+<ul>
+  <li>Processing nested collections (such as lists of lists).</li>
+  <li>Comparing pairs of values.</li>
+  <li>Working with grid or matrix-like data.</li>
+</ul>
