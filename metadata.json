@@ -12,10 +12,11 @@
     "duration": 4,
     "prerequisites": [
         "programming-for-loops-introduction",
-        "programming-nested-constructs"
+        "programming-nested-constructs",
+        "programming-lists-arrays"
     ],
     "related": [
         "python-nested-for-loops",
-        "programming-loop-control-nested-loops"
+        "programming-loop-control-nested-loops",
     ]
 }
